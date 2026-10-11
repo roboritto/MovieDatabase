@@ -66,7 +66,7 @@ Rating Filter
 - Clear the filter by clicking the ❤️🚫 at the end of the filters.
 
 Search System
-- To search for movie name, just type in the name and click the ⌕ button, it won't work if you click enter. You have to write to movie name without misspell for it to works, though incomplete name does works.
+- To search for movie name, just type in the name and click the ⌕ button, it won't work if you click enter. You have to write the movie name without misspell for it to work, though incomplete name does work.
 - To search movies by some directors, type (by Director Name). If the movie have multiple directors, you can write each of the directors name separated by comma (,). Though, this might not work if you write it in a different order than on the tmdb.
 - To search actor/s, type (Actor Name,). If you want to search for multiple actors, you can type (1st Actor Name, 2nd Actor Name), the order doesn't matter here. Meaning (Zendaya, Tom Holland) and (Tom Holland, Zendaya) would return the same result.
 - To reset the search just click the x at the end of the search bar.
