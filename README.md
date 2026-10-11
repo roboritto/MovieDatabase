@@ -43,7 +43,7 @@ Navigation Buttons
 - ? to suggest a random movie
 - Hide Bar to hide the freeze top rows
 
-Export
+Export  
 You can export your database into a csv by pressing ctrl+e. This would export the database into your document folder on your computer with the name Movies.csv. You can change the directory and name of the csv by going to Module10 and find this (savepath = ).
 
 **Database Sheet**
