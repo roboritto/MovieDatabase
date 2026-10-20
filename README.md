@@ -1,5 +1,5 @@
 # Movie Database
-This template can be used as a personal database for movies. This database uses TheMovieDataBase (https://www.themoviedb.org/) as the source. Note that this database is an excel macro enable workbook, so all the macros/function on mobile version. All the macros is written in VBA.
+This template can be used as a personal database for movies. This database uses TheMovieDataBase (https://www.themoviedb.org/) as the source. Note that this database is an excel macro enable workbook, so all the macros/function won't work on mobile version. All the macros is written in VBA.
 
 ## Pre-requisite:
 1. You would need a tmdb api key for the movie posters
