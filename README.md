@@ -2,15 +2,15 @@
 This template can be used as a personal database for movies. This database uses TheMovieDataBase (https://www.themoviedb.org/) as the source. Note that this database is an excel macro enable workbook, so all the macros/function won't work on mobile version. All the macros is written in VBA.
 
 ## Pre-requisite:
-1. You would need a tmdb api key for the movie posters
+1. If you don't currently have the Developer tab enabled, go to File>Option>Customize Ribbon. Then find Developer from the list on the left and add.
+
+2. Enable Macros
+   - Click Enable Macros/Enable Content to make sure the macros can work. 
+
+3. You would need a tmdb api key for the movie posters
     - Go to https://www.themoviedb.org/, and login or register and then, on the main page go to more>api documentation and then follow the instructions.
     - Go to the Developer tab and open Visual Basic on the top left.
     - Replace YOUR_TMDB_API_KEY on Module2, Module4, Module5 & Module11 with the key.
-
-2. Enable Macros
-   - Click Enable Macros/Enable Content to make sure the macros can work.
-
-3. If you don't currently have the Developer tab enabled, go to File>Option>Customize Ribbon. Then find Developer from the list on the left and add.
 
 ## How to use:
 Do not sort any of the columns before you completed all the steps to make sure everything works as intended.  
