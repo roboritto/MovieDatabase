@@ -49,6 +49,7 @@ To be used with [the server](https://github.com/roboritto/Server):
 
 Push 
 - This button would export a csv that you can specify the path to in Module16. This csv is different from the one exported in Export function because it is to be used with the server, it only exports some crucial informations.
+- Make sure that every movie is in the same position in both of the sheets since it would cause issues later on. The best way to make sure is to sort both sheets by name A-Z. But of course it's up to you.
 
 Pull
 - This button would import movies or updates from the same csv as above. This csv is treated as the main source meaning that if there was a movie that was deleted from the csv, when you press the pull button, it would also delete the movie from the excel.
