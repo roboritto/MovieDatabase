@@ -1,5 +1,5 @@
 # Movie Database
-This template can be used as a personal database for movies. This database uses TheMovieDataBase (https://www.themoviedb.org/) as the source. Note that this database is an excel macro enable workbook, so all the macros/function won't work on mobile version. All the macros is written in VBA.
+This template can be used as a personal offline database for movies. This database uses TheMovieDataBase (https://www.themoviedb.org/) as the source. Note that this database is an excel macro enable workbook, so all the macros/function won't work on mobile version. All the macros is written in VBA.
 
 ## Pre-requisite:
 1. If you don't currently have the Developer tab enabled, go to File>Option>Customize Ribbon. Then find Developer from the list on the left and add.
@@ -71,3 +71,5 @@ Search System
 - To search actor/s, type (Actor Name,). If you want to search for multiple actors, you can type (1st Actor Name, 2nd Actor Name), the order doesn't matter here. Meaning (Zendaya, Tom Holland) and (Tom Holland, Zendaya) would return the same result.
 - To reset the search just click the x at the end of the search bar.
 - This system might cause some glitches when you clicked the ⌕ and immediately scroll to the right, it would scroll to the bottom of the table. To avoid this, click anywhere within the search result, and then use the arrow buttons on your keyboard to go the next cell.
+
+Everything on this excel file is designed to work with [the server](https://github.com/roboritto/) if you want to run a local server and have access to the database anywhere. Head there to learn more about how to configure and setup your own server. 
