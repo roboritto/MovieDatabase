@@ -72,4 +72,4 @@ Search System
 - To reset the search just click the x at the end of the search bar.
 - This system might cause some glitches when you clicked the ⌕ and immediately scroll to the right, it would scroll to the bottom of the table. To avoid this, click anywhere within the search result, and then use the arrow buttons on your keyboard to go the next cell.
 
-Everything on this excel file is designed to work with [the server](https://github.com/roboritto/) if you want to run a local server and have access to the database anywhere. Head there to learn more about how to configure and setup your own server. 
+Everything on this excel file is designed to work with [the server](https://github.com/roboritto/Server) if you want to run a local server and have access to the database anywhere. Head there to learn more about how to configure and setup your own server. 
