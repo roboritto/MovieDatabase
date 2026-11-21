@@ -17,22 +17,13 @@ Do not sort any of the columns before you completed all the steps to make sure e
 Don't remove the ♡ on both of the sheets if you want the rating system. Though, you can replace the shape with any shape you want but make sure to name it HeartSample to ensure that the rating system works well.
 
 **Database Sheet**
-1. Type in the name of the name.
+1. Type in the name of the movie.
 2. You can also specify the year of the movie.
-3. Press ctrl+k to autofill the remaining columns.
-- If you added multiple movies, select all the movies you want to autofill.
-- If the movie is wrong, you would have to specify more. Resident Evil might be the 2002 instead of the 2026 one.
-- Don't forget to place the movie poster in cell by clicking the poster and then the little icon on the top right of the poster. This is to make sure the poster move with the row you sort the columns.
-- If let's say you wanted to add a movie that isn't available on the tmdb, just copy any of the movie link but replace the numbers at the end of the link to >5000000 or any number as long as it doesn't belong to any movie on the tmdb. >5000000 is just a safe point to start since tmdb is not that big currently. You can copy the link to your browser to ensure that a movie with that id exist. ie. https://www.themoviedb.org/movie/8000000.
+3. Press the Sync button in the top bar beside the genres. The movie would be autofilled in both the Database and Rating Sheet.
+- If the movie is wrong, you would have to specify more. Resident Evil might be the 2002 instead of the 2026 one. And also you have to delete the movie from the Rating sheet before correcting it and clicking the Sync button again, because doing so would just append the correct movie under the wrong movie.
+- Don't forget to place the movie poster in cell in both sheets by clicking the poster and then the little icon on the top right of the poster. This is to make sure the poster move with the row when you sort the columns.
+- If let's say you wanted to add a movie that isn't available on the tmdb, just copy any of the movie link but replace the numbers at the end of the link to >5000000 or any number as long as it doesn't belong to any movie on the tmdb. >5000000 is just a safe point to start since tmdb is not that big currently. You can copy the link to your browser to ensure that a movie with that id don't exist. ie. https://www.themoviedb.org/movie/8000000.
 - If you don't like the movie poster that was autofilled, you can go to the movie tmdb link, click on the poster and find the one you liked better, copy the image link, paste it into the movie poster cell, then press ctrl+d. Also don't forget to place the image inside the cell to make sure it moves with the row.
-
-**Rating Sheet**
-1. Copy the first 3 cells of the movie/s you just added on the Database Sheet, and paste it into the same column on the Rating Sheet.
-   - This is to make sure that the movie tmdb link is on the same cell on both sheets for later use.
-2. Press ctrl+l to autofill the the director/s and actor/s of the movies.
-   - You can also autofill multiple movies at once for this one too.
-3. Go to the Rating column of the and press ctrl+g.
-   - This generate the hearts for the rating system. It uses the movie tmdb link I mentioned earlier.
 
 Now, you can sort both sheets however you like.
 
@@ -44,7 +35,7 @@ Navigation Buttons
 - Hide Bar to hide the freeze top rows
 
 Export  
-You can export your database into a csv by pressing ctrl+e. This would export the database into your document folder on your computer with the name Movies.csv. You can change the directory and name of the csv by going to Module10 and find this (savepath = ).
+You can export your database into a csv by pressing ctrl+e. This would export the database into your document folder on your computer with the name Movies.csv. You can change the directory and name of the csv by going to Module10 and find this (savepath = ). The purpose of this function is to keep a simple file for safekeeping in case there was an issue with the main excel.
 
 **Database Sheet**
 
@@ -53,6 +44,14 @@ Genre Filter
 - You can filter as many as you like.
 - To clear all filter click clear filter button
 - If you want to add a filter for a specific words anywhere in the excel, like maybe Youtube, you can go to Module14, copy paste any of the Sub at the top and replace the word inside the "" with the word you would like to filter and rename the Sub with the word. Then, to assign it to a button on the sheets, right click any buttons, copy and paste it, and then right click it again to assign the new filter you just made.
+
+To be used with [the server](https://github.com/roboritto/Server): 
+
+Push 
+- This button would export a csv that you can specify the path to in Module16. This csv is different from the one exported in Export function because it is to be used with the server, it only exports some crucial informations.
+
+Pull
+- This button would import movies or updates from the same csv as above. This csv is treated as the main source meaning that if there was a movie that was deleted from the csv, when you press the pull button, it would also delete the movie from the excel.
 
 **Rating Sheet**
 
